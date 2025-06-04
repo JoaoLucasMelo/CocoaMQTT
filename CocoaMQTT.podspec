@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "12.0"
   s.tvos.deployment_target = "10.0"
   # s.watchos.deployment_target = "2.0"
-  s.source   = { :git => "https://github.com/JoaoLucasMelo/CocoaMQTT.git", :branch => "update-cocoamqtt-2025" }
+  s.source   = { :git => "https://github.com/JoaoLucasMelo/CocoaMQTT.git", :branch => "master" }
 
   s.dependency "MqttCocoaAsyncSocket", "~> 1.0.8"
   s.dependency "Starscream", "4.0.4"

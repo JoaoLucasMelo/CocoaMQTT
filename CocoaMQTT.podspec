@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => "https://github.com/JoaoLucasMelo/CocoaMQTT.git", :branch => "master" }
 
   s.dependency "MqttCocoaAsyncSocket", "~> 1.0.8"
-  s.dependency "Starscream", "4.0.4"
+  s.dependency "Starscream", "4.0.8"
   s.source_files = "Source/*.swift"
 end
